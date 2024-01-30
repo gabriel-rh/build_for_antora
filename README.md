@@ -33,5 +33,5 @@
 - Install node, antora, http-server
 - npm i
 - update and copy the 2 template files from antora-template to your output directory
-- build with antora in your output directory - must git init, etc first
-- run http server to view files locally (or just view from file system)
+- build with antora in your output directory - must `git init`, etc first
+- run http server locally to view files  (or just view from file system)
