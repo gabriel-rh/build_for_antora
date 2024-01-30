@@ -1,0 +1,17 @@
+
+site:
+  title: OKD
+content:
+  sources:
+    - url: ./
+      start_path: docs
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+#antora:
+#  extensions:
+#  - require: '@antora/lunr-extension'
+runtime:
+  log:
+    level: error

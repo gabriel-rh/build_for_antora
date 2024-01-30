@@ -1,0 +1,47 @@
+---
+asciidoc:
+  attributes:
+    prod-ver: 2.2
+    product-title: OKD
+    product-version: 4.15
+name: okd
+nav:
+  - modules/welcome/nav.adoc
+  - modules/whats_new/nav.adoc
+  - modules/release_notes/nav.adoc
+  - modules/getting_started/nav.adoc
+  - modules/architecture/nav.adoc
+  - modules/installing/nav.adoc
+  - modules/post_installation_configuration/nav.adoc
+  - modules/updating/nav.adoc
+  - modules/support/nav.adoc
+  - modules/web_console/nav.adoc
+  - modules/cli_reference/nav.adoc
+  - modules/security/nav.adoc
+  - modules/authentication/nav.adoc
+  - modules/networking/nav.adoc
+  - modules/storage/nav.adoc
+  - modules/registry/nav.adoc
+  - modules/operators/nav.adoc
+  - modules/cicd/nav.adoc
+  - modules/openshift_images/nav.adoc
+  - modules/applications/nav.adoc
+  - modules/machine_management/nav.adoc
+  - modules/hosted_control_planes/nav.adoc
+  - modules/nodes/nav.adoc
+  - modules/windows_containers/nav.adoc
+  - modules/sandboxed_containers/nav.adoc
+  - modules/logging/nav.adoc
+  - modules/monitoring/nav.adoc
+  - modules/scalability_and_performance/nav.adoc
+  - modules/hardware_enablement/nav.adoc
+  - modules/backup_and_restore/nav.adoc
+  - modules/migrating_from_ocp_3_to_4/nav.adoc
+  - modules/migration_toolkit_for_containers/nav.adoc
+  - modules/service_mesh/nav.adoc
+  - modules/distr_tracing/nav.adoc
+  - modules/virt/nav.adoc
+  - modules/serverless/nav.adoc
+start_page: welcome:index.adoc
+title: OKD Docs
+version: "4.15"
