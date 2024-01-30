@@ -26,6 +26,7 @@ nav:
   - modules/cicd/nav.adoc
   - modules/openshift_images/nav.adoc
   - modules/applications/nav.adoc
+  - modules/serverless/nav.adoc
   - modules/machine_management/nav.adoc
   - modules/hosted_control_planes/nav.adoc
   - modules/nodes/nav.adoc
@@ -33,15 +34,17 @@ nav:
   - modules/sandboxed_containers/nav.adoc
   - modules/logging/nav.adoc
   - modules/monitoring/nav.adoc
+  - modules/distr_tracing/nav.adoc
+  - modules/otel/nav.adoc
+  - modules/network_observability/nav.adoc
   - modules/scalability_and_performance/nav.adoc
+  - modules/telco_ref_design_specs/nav.adoc
   - modules/hardware_enablement/nav.adoc
   - modules/backup_and_restore/nav.adoc
   - modules/migrating_from_ocp_3_to_4/nav.adoc
   - modules/migration_toolkit_for_containers/nav.adoc
   - modules/service_mesh/nav.adoc
-  - modules/distr_tracing/nav.adoc
   - modules/virt/nav.adoc
-  - modules/serverless/nav.adoc
 start_page: welcome:index.adoc
 title: OKD Docs
 version: "4.15"
