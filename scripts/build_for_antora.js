@@ -102,6 +102,9 @@ function processTopic(topic, dir) {
   if (topic.Dir && topic.Dir.includes("rest_api"))
     return;
 
+  if (topic.Distros && !topic.Distros.includes(process.env.DISTRO))
+    return;
+
   currLevel++;
 
   if (topic.Dir) {
