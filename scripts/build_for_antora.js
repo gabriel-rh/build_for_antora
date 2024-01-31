@@ -58,7 +58,7 @@ const deleteExistingFile = (filePath) => {
 };
 
 // Function to create a file and its parent directories recursively
-const createFileWithDirectories = (filePath, content) => {
+const createDirectoriesIfNeeded = (filePath) => {
   // Extract the directory path from the file path
   const directoryPath = path.dirname(filePath);
 
@@ -66,22 +66,13 @@ const createFileWithDirectories = (filePath, content) => {
   fs.mkdir(directoryPath, { recursive: true }, (err) => {
     if (err) {
       console.error('Error creating directories:', err);
-    } else {
-      // Parent directories created successfully
-      // Now, create the file and write content to it
-      fs.writeFile(filePath, content, (err) => {
-        if (err) {
-          console.error('Error creating the file:', err);
-        } else {
-          //console.log('File created and content written successfully.');
-        }
-      });
-    }
+    } 
   });
 };
 
 try {
   deleteExistingFile(topLevelNavYAML);
+  createDirectoriesIfNeeded(topLevelNavYAML);
   fs.appendFileSync(topLevelNavYAML, "nav:\n")
 
   let fileContents = fs.readFileSync(topic_map, 'utf8');
