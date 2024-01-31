@@ -9,7 +9,7 @@ const { exec, execSync } = require("child_process");
 var dotenv = require('dotenv')
 var dotenvExpand = require('dotenv-expand')
 
-var myEnv = dotenv.config({ path: ".env.local" }) // use env.local for local builds - fix for your own setup
+var myEnv = dotenv.config({ path: ".env.codespace" }) // use env.local for local builds - fix for your own setup
 dotenvExpand.expand(myEnv)
 
 const topic_map = process.env.TOPIC_MAP_DIR + '/' + process.env.TOPIC_MAP_FILE;
