@@ -33,6 +33,7 @@ nav:
   - modules/windows_containers/nav.adoc
   - modules/logging/nav.adoc
   - modules/monitoring/nav.adoc
+  - modules/power_monitoring/nav.adoc
   - modules/network_observability/nav.adoc
   - modules/scalability_and_performance/nav.adoc
   - modules/hardware_enablement/nav.adoc
@@ -41,4 +42,3 @@ nav:
   - modules/migration_toolkit_for_containers/nav.adoc
   - modules/virt/nav.adoc
 
-  

@@ -166,7 +166,7 @@ function processTopic(topic, dir) {
 function processAdoc(dir, file, fullFilespec) {
   var adocFile = process.env.INPUT_DIR + file.slice(file.indexOf("modules") + 7)
 
-  var cmd = "asciidoctor-reducer -r asciidoctor/reducer/include_mapper"
+  var cmd = "asciidoctor-reducer  --preserve-conditionals --attribute=" +  process.env.DISTRO + " -r asciidoctor/reducer/include_mapper"
   cmd += " -a " + process.env.DISTRO
   cmd += " -a product-title=" + process.env.PRODUCT_TITLE
   cmd += " -a product-version=" + process.env.PRODUCT_VERSION
